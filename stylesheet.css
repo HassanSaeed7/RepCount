@@ -12,9 +12,10 @@ body {
 #new-btn,
 #reset-btn */
 button {
-    padding: 1%;
+    padding: 1% 2%;
     border-radius: 10px;
     background-color: transparent;
+    font-size: 2em;
 }
 button:hover {
     box-shadow: 0px 5px 5px 0px
@@ -48,4 +49,12 @@ a:hover {
 }
 .buttons {
     padding: 5%;
+}
+.display {
+    padding: 1%;
+}
+.display > span {
+    text-decoration: underline;
+    padding: 5%;
+    font-size: 2em;
 }
