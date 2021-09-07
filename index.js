@@ -12,7 +12,7 @@ function save() {
     let countStr = count + " - "
     saveEl.textContent += countStr
     count = 0
-    countStr = 0
+    countEL.textContent = 0
 }
 
 function reset() {
@@ -24,5 +24,7 @@ function reset() {
 }
 
 function clear() {
-	historyEl.replaceChild()
+    while(historyEl.hasChildNodes(true)){
+        historyEl.removeChild(li);
+    } 
 }

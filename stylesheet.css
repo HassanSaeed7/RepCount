@@ -3,18 +3,21 @@ body {
     padding: 0;
     text-align: center;
 }
-#title{
+#title,
+.title {
     font-size: 3em;
 }
-#increment-btn,
+/* #increment-btn,
 #save-btn,
-#new-btn {
+#new-btn,
+#reset-btn */
+button {
     padding: 1%;
     border-radius: 10px;
     background-color: transparent;
 }
 button:hover {
-    box-shadow: 0px 0px 1px 1px
+    box-shadow: 0px 5px 5px 0px
 }
 #count-el {
     font-size: 5em;
@@ -32,6 +35,17 @@ button:hover {
     width: 30%;
     margin: 0 auto;
 }
-#history > li {
+li {
     list-style: none;
+}
+a {
+    text-decoration: none;
+    font-size: 2em;
+    color: black;
+}
+a:hover {
+    text-decoration: underline;
+}
+.buttons {
+    padding: 5%;
 }
