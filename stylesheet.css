@@ -32,3 +32,6 @@ button:hover {
     width: 30%;
     margin: 0 auto;
 }
+#history > li {
+    list-style: none;
+}

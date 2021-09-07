@@ -1,5 +1,6 @@
 let saveEl = document.getElementById("save-el")
 let countEL = document.getElementById("count-el")
+let historyEl = document.getElementById("history")
 let count = 0
 
 function increment() {
@@ -7,10 +8,21 @@ function increment() {
     countEL.textContent = count
 }
 
-function save() {
+function save() { 
     let countStr = count + " - "
     saveEl.textContent += countStr
-    console.log(count)
     count = 0
     countStr = 0
+}
+
+function reset() {
+    var li = document.createElement('li')
+    li.appendChild(document.createTextNode(saveEl.textContent))
+    historyEl.appendChild(li)    
+    count = 0
+    saveEl.textContent = count
+}
+
+function clear() {
+	historyEl.replaceChild()
 }

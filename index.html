@@ -14,12 +14,13 @@
     <h2 id="count-el">0</h2>
     <button id="increment-btn" onclick="increment()">INCREMENT</button>
     <button id="save-btn" onclick="save()">SAVE</button>
-    <button id="new-btn">NEW LIFT</button>
-    <p id="save-el">Previous Reps: </p>
+    <button id="new-btn" onclick="reset()">NEW LIFT</button>
+    <p>Previous Reps: </p> 
+    <p id="save-el"></p>
     <p>Lift History</p>
-    <ul>
-        <li></li>
+    <ul id="history">
     </ul>
+    <button id="reset-btn" onclick="clear()">HISTORY RESET</button>
     <script src="index.js"></script>
 </body>
 </html>
