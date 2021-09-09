@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: url("/table.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1 {
+    color: gold;
+    font-size: 4em;
+    padding-bottom: 5%;
+}
+#message-el {
+    font-size: 2em;
+}
+#play-btn,
+#card-btn {
+    padding: 1% 2%;
+    background-color: gold;
+    font-size: 1.5em;
+    border: none;
+    color: #016f32;
+}
+button:hover {
+    box-shadow: 0px 5px 5px 0px
+}
