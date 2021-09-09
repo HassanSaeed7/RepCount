@@ -3,9 +3,16 @@ body {
     padding: 0;
     text-align: center;
 }
-#title,
+#title {
+    font-size: 3em;
+}
 .title {
     font-size: 3em;
+    text-shadow: 
+    0.025em 0.025em 0 yellow, 
+    0.05em 0.05em blue, 
+    0.075em 0.075em red,
+    0.1em 0.1em 0 black;
 }
 /* #increment-btn,
 #save-btn,
